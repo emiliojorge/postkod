@@ -68,7 +68,7 @@ def value_fifty_fifty(p, four_lifelines, nominal, phone, fifty_fifty, ask_audien
     nominal_next = level[nominal]["nominal_next"]
 
     if p>=0.5:
-        2/3 *get_state(four_lifelines, nominal_next, phone, False, ask_audience,
+        return 2/3 *get_state(four_lifelines, nominal_next, phone, False, ask_audience,
                   new_question)['value'] +  1/3 *get_value(four_lifelines, nominal, phone, False, ask_audience,
                             new_question, prob=p)
     if p>=0.33:

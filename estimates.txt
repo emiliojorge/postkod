@@ -1,0 +1,46 @@
+In [87]: get_state(True, 1000, True, True, True, True)
+Out[87]: {'value': 50898.0863467402}
+
+In [88]: get_state(False, 1000, True, True, True, False)
+Out[88]: {'value': 47719.990972547814}
+
+Innan
+
+In [92]: get_state(False, 1000, True, True, True, False)
+Out[92]: {'value': 61216.26389237649}
+
+In [93]: get_state(True, 1000, True, True, True, True)
+Out[93]: {'value': 64854.471070330204}
+
+
+efter 100000
+
+In [97]: get_state(True, 1000, True, True, True, True)
+Out[97]: {'value': 60121.350189967154}
+
+In [98]: get_state(False, 1000, True, True, True, False)
+Out[98]: {'value': 57333.536726634215}
+
+efter allt
+In [102]: get_state(False, 1000, True, True, True, False)
+Out[102]: {'value': 55332.54604054463}
+
+
+In [103]: get_state(True, 1000, True, True, True, True)
+Out[103]: {'value': 59779.42737900308}
+
+ändra fråga publiken:
+In [113]: get_state(True, 1000, True, True, True, True)
+Out[113]: {'value': 60879.75242576821}
+
+In [114]: get_state(False, 1000, True, True, True, False)
+Out[114]: {'value': 57169.79569496335}
+
+Efter bug i 50/50
+In [2]: get_state(False, 1000, True, True, True, False)
+Out[2]: {'value': 62950.770733533296}
+
+In [3]: get_state(True, 1000, True, True, True, True)
+Out[3]: {'value': 66879.27518047001}
+
+
